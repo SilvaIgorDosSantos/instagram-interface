@@ -1,3 +1,9 @@
+:root {
+    --branco: rgb(243,243,243);
+    --azul: #0095f6;
+    --cinza: rgb(160, 160, 160);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +16,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background-color: var(--branco);
     margin: 0;
     padding: 0;
     display: flex;
@@ -77,23 +83,23 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
+    background-color: var(--azul);
     color: white;
     padding: 8px;
     border-radius: 8px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: var(--azul);
     margin-top: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: var(--cinza);
 }
 
 .link-blue {
-    color: #0095f6;
+    color: var(--azul);
 }
 
 .get-the-app {
